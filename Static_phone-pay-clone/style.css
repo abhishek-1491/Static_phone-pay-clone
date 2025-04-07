@@ -1,0 +1,338 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 205, 205);
+    font-size: 15px;
+}
+@media screen and (max-width:365px){
+
+    nav{
+        background-color: rgb(19, 19, 132);
+        color: white;
+        /* padding: 5px; */
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        box-shadow: 0px -5px 15px rgb(19, 19, 132) ;
+
+    }
+    
+    .nav-item , .nav-item-btn{
+        float: left;
+    }
+    .profile{
+        width: 15%;
+        height: 50px;
+        /* border: 1px solid; */
+    }
+    .profile-pic{
+        text-align: center;
+        /* margin-top: 40%; */
+        background-color: white;
+        color: rgb(19, 19, 132);
+        padding: 10px;
+        width: 20px;
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 15px;
+        i{
+            font-size: 20px;
+        }
+    }
+    .location-items3 img{
+        width: 16px;
+        padding: 1px;
+        margin-left: -29px;
+        /* margin-top: 0%; */
+        position: fixed;
+        top: 0;
+        margin-top: 26px;
+        background-color: white;
+        border-radius: 7px;
+        /* box-shadow: 0px 0px 10px black; */
+        /* border: 1px solid black; */
+        /* z-index: 1; */
+        /* margin-top: -95px; */
+    }
+    .location{
+        width: 38%;
+        height: 50px;
+        margin-top: 5px;
+        padding-left: 10px;
+        font-size: large;
+        .location-items2{
+            opacity: 0.6;
+            font-size: medium;
+        }
+    }
+    .nav-btn{
+        width: 40%;
+        height: 50px;
+        
+        .nav-item-btn{
+            margin-top: 15px;
+            margin-left: 25px;
+            font-size: 18px;
+            
+        }
+    }
+    .nav-item-btn img{
+        width: 20px;
+        color: white;
+    }
+    .container{
+        height: 93vh;
+        /* background-color: red; */
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    .transfer-money-section{
+        width: 95%;
+        background-color: white;
+        border-radius: 10px;
+        margin: 5px;
+        margin-top: 55px;
+        /* border: 1px solid; */
+        /* margin-right: 20px; */
+        height: 18vh;
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+
+    .TM-items{
+        float: left;
+        width: 25%;
+
+        
+    }
+    .TM-item-pic i{
+        margin-left: 25px;
+        padding: 5px;
+        background-color: rgb(19, 19, 132);
+        color: white;
+        border-radius: 10px;
+        width: 20px;
+        height: 20px;
+        padding-left: 8px;
+        padding-top: 8px;
+        /* border: 1px solid; */
+    }
+    .TM-item-title{
+        /* border: 1px solid; */
+        text-align: center;
+        justify-content: center;
+        /* margin: 3px; */
+        margin-right: 10px;
+    }
+
+    .other-options-items{
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .other-options-items1{
+        width: 40%;
+        padding: 5px;
+        border: 1px solid aqua;
+        border-radius: 10px;
+    }
+    .other-options-items2{
+        width: 50%;
+        padding: 5px;
+        margin-left: 3px;
+        border: 1px solid aqua;
+        border-radius: 10px;
+    }
+
+    .more{
+        width: 95%;
+        /* background-color: white; */
+        border-radius: 10px;
+        /* margin: 5px; */
+        /* border: 1px solid; */
+        /* margin-left: -2px; */
+        margin-top: -5px;
+        height: 10vh;
+        padding: 5px;
+        
+        padding-bottom: 0px;
+    }
+    .more-items{
+        font-size: medium;
+        float: left;
+        width: 26%;
+        padding: 4px 0px;
+        margin-left: 5px;
+        padding-left: 20px;
+        background-color: white;
+        border-radius: 10px;
+        /* border: 1px solid; */
+    }
+
+    .title{
+        width: 100%;
+        height: 30px;
+        /* background-color: yellow; */
+    }
+    .row{
+        float: left;
+    }
+    .title-name{
+        width: 69%;
+        margin-top: 5px;
+        font-weight: bold;
+    }
+    .title-btn {
+        width: 29%;
+        margin-top: 2px;
+        /* padding: 2px; */
+        padding-top: 2px;
+    }
+    .title-btn button{
+        padding: 3px 12px;
+        border: none;
+        background-color: aqua;
+        border-radius: 3px;
+    }
+    .payBills{
+        width: 95%;
+        background-color: white;
+        border-radius: 10px;
+        margin: 5px;
+        margin-top: -25px;
+        /* border: 1px solid; */
+        /* margin-right: 20px; */
+        height: 16vh;
+        padding: 5px;
+        
+        /* padding-bottom: 0px; */
+    }
+
+    .payBills-items{
+        /* border: 1px solid; */
+        width: 100%;
+        height: 11vh;
+    }
+    .payBills-sub-items{
+        /* border: 1px solid; */
+        width: 25%;
+        float: left;
+        margin-top: 15px;
+    }
+    .payBills-sub-items-pic{
+        text-align: center;
+        font-size: 21px;
+    }
+    .payBills-sub-items-name{
+        text-align: center;
+        margin-top: 3px;
+
+    }
+    .loan{
+        width: 95%;
+        background-color: white;
+        border-radius: 10px;
+        margin: 5px;
+        /* margin-top: -20px; */
+        /* border: 1px solid; */
+        /* margin-right: 20px; */
+        height: 16vh;
+        padding: 5px;
+        
+        padding-bottom: 0px;
+    }
+    .Insurance{
+        width: 95%;
+        background-color: white;
+        border-radius: 10px;
+        margin: 5px;
+        /* margin-top: -20px; */
+        /* border: 1px solid; */
+        /* margin-right: 20px; */
+        height: 16vh;
+        padding: 5px;
+        
+        padding-bottom: 0px;
+    }
+    .wealth{
+        width: 95%;
+        background-color: white;
+        border-radius: 10px;
+        margin: 5px;
+        /* margin-top: -20px; */
+        /* border: 1px solid; */
+        /* margin-right: 20px; */
+        height: 16vh;
+        padding: 5px;
+        /* overflow: scroll; */
+        
+        /* padding-bottom: 0px; */
+    }
+
+
+
+
+
+    .footer-items{
+        width: 20%;
+        float: left;
+        border-radius: 10px;
+        /* border: 1px solid; */
+        text-align: center;
+        /* background-color: white; */
+    }
+
+    .footer{
+        width: 100%;
+        height: 7vh;
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+        background-color: white;
+        align-items: center;
+        box-shadow: 0px 5px 15px black ;
+    }
+    .footer-name{
+        margin-top: 2px;
+    }
+    .footer-icon{
+        /* border: 1px solid; */
+        width: 70%;
+        height: 20px;
+        padding: 2px 0px;
+        margin-left: 15%;
+        margin-top: 3px;
+        border-radius: 20px;
+    }
+    /* .footer-items:hover{
+        .footer-icon{
+            
+            background-color: skyblue;
+        }
+        .footer-name{
+            color: rgb(19, 19, 132);
+        }
+    } */
+
+    .active{
+        .footer-icon{
+            
+            background-color: skyblue;
+        }
+        .footer-name{
+            color: rgb(19, 19, 132);
+        }
+    }
+   .disactive{
+    border: 1px;
+   }
+    .payBills-sub-items:hover , .more-items:hover , .other-options-items:hover , .TM-items:hover{
+        background-color: cyan;
+        border-radius: 10px;
+        
+    }
+}
+
